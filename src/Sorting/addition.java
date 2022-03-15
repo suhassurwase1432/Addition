@@ -10,8 +10,13 @@ public class addition {
 		int sum=0;
 		sum=a+b;
 		System.out.println(sum);
-		
 		System.out.println("Never lose Hope");
+		mul(a, b);
+	}
+	
+	static void mul(int a,int b)
+	{
+		System.out.println(a*b);
 	}
 
 }
