@@ -7,8 +7,9 @@ public class addition {
 
 		int a=10;
 		int b=86;
-		
-		System.out.println(a+b);
+		int sum=0;
+		sum=a+b;
+		System.out.println(sum);
 		
 		System.out.println("Never lose Hope");
 	}
